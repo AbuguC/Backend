@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Routes
 app.get("/ping", (req, res) =>{
-    res.json({message :"pong"})
+    res.send({message :"pong"})
 });
 
 
